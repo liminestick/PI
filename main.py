@@ -11,7 +11,7 @@ app = FastAPI()
 async def read_root():
     return {"message": "Hello, World!"}
 
-# Эндпоинт для синтеза речи
+# Эндпоинт для синтеза речи ы
 @app.post("/synthesize-speech")
 async def synthesize_speech(src_text: str, file: UploadFile = File(...)):
     """
