@@ -20,7 +20,7 @@ async def synthesize_speech(src_text: str, file: UploadFile = File(...)):
     Параметры:
     - src_text: текст для синтеза.
     - file: файл .wav с голосом для обучения модели.
-
+    - да
     Возвращает:
     - аудиофайл с синтезированной речью.
     """
